@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adilsons Otaku</title>
+
+        <!-- front awesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/front-awesome/5.15.4/css/all.min.css">
+        
+        <!-- custom css file link -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/404.css">
+        <link rel="stylesheet" href="css/product.css">
+        <link rel="stylesheet" href="css/about.css">
+    </head>
+    <body>
+
+        <!-- header section starts -->
+
+        <header class="header">
+
+            <a href="#" class="logo">
+                <img src="images/logo.JPG" style="display: block; margin-left: auto; margin-right: auto;">
+            </a>
+        </header>
+        <!-- header section ends -->
+        <nav class="navbar">
+            
+            <p>
+
+            </p>
+        
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li> 
+                    <li><a href="product.html">PRODUCT</a></li>
+                    <li><a href="contest.html">EVENTS</a></li>
+                </ul>
+                
+
+            </div>
+           <div class="icons">
+             <div class="fas fa-shoppig-cart" id="cart-btn"></div>
+             <div class="fas fa-login" id="login-btn"></div>
+           </div>
+                <p>
+                 
+                    <div class="search">
+                        <input type="text" class="search-box" placeholder="search">
+                        <button class="search-btn"  width: 20%; height: 40px;>search</button> 
+                        </div>
+                        <a href="404.html"><img src="images/cart.png"  alt=""></a>
+                        <a href="404.html"><img src="images/login.png" height="40px" alt=""></a> 
+                    </p>
+                   <p>
+                  
+                </nav>
+               
+                
+                <div>
+
+                </div>
+
+                </p>
+                <!--image slider start-->
+                <div class="slider">
+                  <div class="slides">
+                     <!--radio buttons start-->
+                     <input type="radio" name="radio-btn" id="radio1">
+                     <input type="radio" name="radio-btn" id="radio2">
+                     <input type="radio" name="radio-btn" id="radio3">
+                      <!--radio buttons end-->
+                      <!--slide images start-->
+                      <div class="slide first">
+                        <img src="images/giveaway.jpg" alt="">
+                      </div>
+                      <div class="slide second">
+                        <img src="images/New.JPG" alt="">
+                      </div>
+                      <div class="slide third">
+                        <img src="images/SHOP NOW.JPG" alt="">
+                      </div>
+                      <!--slide images end-->
+                      <!--atomatic navigation start-->
+                      <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                      </div>
+                      <!--atomatic navigation end-->
+                    </div>
+                    <!--manual navigation start-->
+                    <div class="navigation-manual">
+                      <label for="radio1" class="manual-btn"></label>
+                      <label for="radio2" class="manual-btn"></label>
+                      <label for="radio3" class="manual-btn"></label>
+                    </div>
+                    <!--manual navogation end-->
+                  </div>
+                  <!--image slider end-->
+                  <script type="text/javascript">
+                    var counter= 1;
+                    setInterval(function(){
+                      document.getElementById('radio' + counter).checked = true;
+                      counter++;
+                      if(counter > 3){
+                        counter =1;
+                      }
+                    }, 5000);
+                  </script>
+                </div>
+
+
+<!-- cards-container -->
+<section class="product">
+  <h2 class="product-category">Best sellers</h2>
+  <div class="product-container">
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/hunter x hunter rings.jfif" class="product-thumb" height="400px" width="350px" alt="">
+        <button class="card-btn">add to cart</button>
+      </div>
+      <div class="product-info">
+        <h2 class="product-brand"></h2>
+        <p class="product-short-des">Hunter X Hunter Kurapika Rings Cosplay</p>
+        <span class="price">Rs400</span>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/naruto vacum mug.jpeg" class="product-thumb" height="400px" width="350px" alt="">
+        <button class="card-btn">add to cart</button>
+      </div>
+      <div class="product-info">
+        <h2 class="product-brand"></h2>
+        <p class="product-short-des">Naruto Vacum Mug</p>
+        <span class="price">Rs750</span>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/chansawman denim jacket.JPG" class="product-thumb" height="400px" width="350px" alt="">
+        <button class="card-btn">add to cart</button>
+      </div>
+      <div class="product-info">
+        <h2 class="product-brand"></h2>
+        <p class="product-short-des">Chainsaw Man Denim Jacket</p>
+        <span class="price">Rs1800</span>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/One Piece Earring.jpeg" class="product-thumb" height="400px" width="350px" alt="">
+        <button class="card-btn">add to cart</button>
+      </div>
+      <div class="product-info">
+        <h2 class="product-brand"></h2>
+        <p class="product-short-des">One Piece Earring</p>
+        <span class="price">Rs225</span>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/Demon Slayer Makeup Brush.jpg" class="product-thumb" height="400px" width="350px" alt="">
+        <button class="card-btn">add to cart</button>
+      </div>
+      <div class="product-info">
+        <h2 class="product-brand"></h2>
+        <p class="product-short-des">Demon Slayer Makeup Brush</p>
+        <span class="price">Rs500</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="product">
+  <h2 class="product-category">Top Shoes</h2>
+  <div class="product-container">
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/naruto.jpg" class="product-thumb" height="400px" width="350px" alt="">
+        <button class="card-btn">add to cart</button>
+      </div>
+      <div class="product-info">
+        <h2 class="product-brand"></h2>
+        <p class="product-short-des">Naruto shoes</p>
+        <span class="price">Rs1,500</span>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/sasuke.jpg" class="product-thumb" height="400px" width="350px" alt="">
+        <button class="card-btn">add to cart</button>
+      </div>
+      <div class="product-info">
+        <h2 class="product-brand"></h2>
+        <p class="product-short-des">Sasuke shoes</p>
+        <span class="price">Rs1,500</span>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/samehada.jpg" class="product-thumb" height="400px" width="350px" alt="">
+        <button class="card-btn">add to cart</button>
+      </div>
+      <div class="product-info">
+        <h2 class="product-brand"></h2>
+        <p class="product-short-des">Samehada shoes</p>
+        <span class="price">Rs1,500</span>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/gaara shoes.jpg" class="product-thumb" height="400px" width="350px" alt="">
+        <button class="card-btn">add to cart</button>
+      </div>
+      <div class="product-info">
+        <h2 class="product-brand"></h2>
+        <p class="product-short-des">Gaara shoes</p>
+        <span class="price">Rs1,500</span>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/tanjiro.jpg" class="product-thumb" height="400px" width="350px" alt="">
+        <button class="card-btn">add to cart</button>
+      </div>
+      <div class="product-info">
+        <h2 class="product-brand"></h2>
+        <p class="product-short-des">Tanjiro shoes</p>
+        <span class="price">Rs1,500</span>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- collections -->
+<section class="collection-container">
+  <a href="newcollection.html" class="collection">
+    <img src="images/new collection.jpg" height="575px" width="1020px"alt="">
+    <p class="collection-title">New collection </p>
+  </a>
+  <a href="merch.html" class="collection">
+    <img src="images/anime merch.jpg" width="1020px"alt="">
+    <p class="collection-title">Merch </p>
+  </a>
+  <a href="cosplay.html" class="collection">
+    <img src="images/cosplay.jpg" alt="">
+    <p class="collection-title">Cosplay </p>
+  </a>
+  <a href="manga.html" class="collection">
+    <img src="images/Animanga.jpg" height="575px" width="1020px" alt="">
+    <p class="collection-title">Manga & Anime </p>
+  </a>
+</section>
+
+<footer>
+<script src="js/footer.js"></script>
+<a href="https://twitter.com/AdilsonsOtaku" target="blank">
+  <ion-icon name="logo-twitter"></ion-icon>
+</a>
+<a href="https://www.tiktok.com/@adilsons" target="blank">
+  <ion-icon name="logo-tiktok"></ion-icon>
+</a>
+<a href="https://www.instagram.com/adilsons_otaku/" target="blank">
+  <ion-icon name="logo-instagram"></ion-icon>
+</a>
+<a href="https://www.pinterest.com/adilsonsotaku/" target="blank">
+  <ion-icon name="logo-pinterest"></ion-icon>
+</a>
+<a href="https://www.facebook.com/adilsonyugioh/" target="blank">
+  <ion-icon name="logo-facebook"></ion-icon>
+</a>
+<a href="https://discord.com/invite/a7ng9QqKFr" target="blank">
+  <ion-icon name="logo-discord"></ion-icon>
+</a>
+<a href="https://www.linkedin.com/company/adilsons" target="blank">
+  <ion-icon name="logo-linkedin"></ion-icon>
+</a>
+<a href="https://www.youtube.com/watch?v=rU-EgSbEOIk" target="blank">
+  <ion-icon name="logo-youtube"></ion-icon>
+</a>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+ </footer>
+    </body>
+</html>
